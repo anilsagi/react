@@ -1,0 +1,33 @@
+body{
+    background-color:gray;
+}
+.container{
+    margin:auto;
+    margin-top: 10px;
+    text-align: center;
+}
+.headingText{
+    margin:auto;
+    color: white;
+}
+.subContainer{
+    background-color:burlywood ;
+    width: 150px;
+    height: 180px;
+    padding: 5px;
+    margin: 10px solid black;
+    color:black;
+    text-align:left;
+    display: inline-flex;  
+    border-radius: 20px; 
+}
+.adressText{
+    margin:auto;
+    margin: 10px solid black ;  
+}
+.btn{
+    text-align: center;
+    padding: 10px;
+    background-color: green;
+    color: white;
+}
