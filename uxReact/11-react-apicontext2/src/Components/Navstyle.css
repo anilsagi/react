@@ -1,0 +1,33 @@
+.nav-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: brown;
+    color: cornsilk;
+    margin-bottom: 20px;
+}
+
+input {
+   margin: 10px;
+}
+
+.button {
+    padding: 2  px;
+    background-color: brown;
+    color: white;
+    margin-left: 10px;
+}
+
+td,tr,table,thead{
+    border-collapse:collapse;
+    text-align: justify;
+}
+thead{
+    text-align: center;
+    padding: 20px;
+    font-weight: bolder;
+    border-collapse:collapse
+}
+th{
+    color: brown;
+}

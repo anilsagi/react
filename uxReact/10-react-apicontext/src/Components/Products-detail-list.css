@@ -1,0 +1,16 @@
+.Products-detail-list h3 ,
+.Products-detail-list span {
+display: inline-block;
+text-align: center;
+margin: 0 auto ;
+
+}
+.Products-detail-list h3{
+    margin-right: 15px;
+}
+
+tr,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+  padding: 10px;
+}

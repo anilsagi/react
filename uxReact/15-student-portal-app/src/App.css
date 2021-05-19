@@ -1,0 +1,249 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  justify-content: stretch;
+  
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.loginBtn,.submitBtn {
+  width: 100%;
+  text-align: center;
+  background-color: '#EE6E73';
+  color: 'white'; 
+  padding: 10px;
+  cursor: pointer;
+}
+.submitBtn{
+  text-align: center;
+  background-color:'red';
+  color: 'white'; 
+  padding: 10px;
+  cursor: pointer;
+
+}
+/* .mb-10,.mb-11 { */
+  /* margin-bottom: 20px; */
+  /* margin: 0 auto */
+/* } */
+/* .mb-11{
+  height: 1500;
+  width: 1000;
+} */
+input[type ='text'] {
+  border-bottom: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  text-align: top;
+  
+}
+
+table, td, th,tr {
+  border: 1px solid black;
+  border-collapse: collapse;
+  font-style: none ;
+  padding-left: 15px;
+}
+
+.AppHomesuccess{
+  float: right;
+}
+.table {
+  margin:0 auto;
+  margin-top: 20px;
+  /* background-color: lightcoral;  */
+}
+.link {
+  color: white;
+  text-decoration: 'none';
+  border-bottom: none;
+  text-decoration: none;
+}
+
+.powerText{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    animation-name: superText;
+    animation-duration: 0.9s;
+    animation-iteration-count: infinite;
+    font-weight: bold;
+    animation-direction: normal;
+}
+@keyframes superText {
+    50% {color:blue}
+    30% {color:yellow}
+    20% {color: green;}
+}
+
+.facultyTable{
+margin: 0 auto;
+justify-content: center;
+line-height: 1.5;
+margin-top: 20px;
+cursor: pointer;
+}
+
+th{
+  background-color: #EE6E73;
+  color: white;
+  line-height: 3;
+  padding: 15px;
+  cursor: pointer;
+}
+tr{
+  /* padding: 200px; */
+  justify-content: center;
+  cursor: pointer;
+}
+tr:hover{
+  background-color: yellow;
+  cursor: pointer;
+}
+.spanText{
+  text-align: center;
+  color:red;
+  display: block;
+}
+table td{
+  width:auto;
+  /* padding-bottom: 15px;
+  margin-bottom: 10px; */
+}
+
+.appBar-btns{
+  /* margin-right: 50px; */
+  padding:10px 
+}
+
+.wpanel_marquee {
+  /* background-color: #EE6E73; */
+  font-weight: bold;
+  /* padding: 7px; */
+  /* display: block; */
+  /* margin: 10px 0px; */
+}
+#message {
+  box-sizing: border-box;
+  overflow: hidden;
+  white-space: nowrap;
+  height: 40px; 
+  text-align: center;
+}
+.faqContainer{
+  margin: 0 auto;
+  /* text-align: center; */
+  /* justify-content: center; */
+  /* text-transform: uppercase; */
+}
+.blinkedText{
+  width: 100%;
+  /* margin:  auto; */
+  text-align: center;
+  color:rgb(0, 98, 255);
+  font-size: 15px;
+  animation-name: alertMessage;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  font-weight: bold;
+  margin-top: 20px;
+}
+@keyframes alertMessage {
+  40% {color:rgb(0, 98, 255)}
+  20% {color:green}
+  20% {color:black}
+  30% {color: rgb(220, 143, 20);}
+}
+
+.Teacherfooter-text{
+  position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: 3F51B5;
+   color: white;
+   text-align: center;
+   margin-top: 25;
+}
+.active {
+  border: 1px solid blue;
+  background-color: cornsilk;
+  cursor: pointer;
+}
+.questionText{
+  margin-top: 20px;
+}
+
+.top-arrow-last{
+  float: right;
+ cursor: pointer;
+ border-radius: 100%;
+ background-color: #3F51B8;
+ color: cornsilk;
+}
+
+.MuiSvgIcon-root {
+    font-size: 3.5rem;
+}
+/* .studentProfile{
+  margin-top: 50px;
+} */
+.formText{
+  float: left;
+  width: 100%;
+  padding-bottom: 15px;
+}
+/* .tableOne, .tableTwo, .tableThree {
+  display: inline-block;
+  margin-left: 20px;
+} */
+/* .student-container{
+  display: flex;
+} */
+.tableOne, .tableTwo {
+  float: left;
+  margin-right: 25px;
+}
+
+.tableThree{
+  margin-bottom: 25px;
+}
+
+.tableStudentData{
+  margin-top: 100px;
+  margin-left: 25px;
+}
